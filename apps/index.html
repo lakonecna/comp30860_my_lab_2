@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Note it: Main Page</title>
+    </head>
+    <body>
+        <table>
+            <col width="100">
+            <!--Two rows, first col spans the two with img, second col divided-->
+            <tr>
+                    <td rowspan="2">
+                        <img width="70" src="images/logo.jpg">
+                    </td>
+                    <td>
+                        <h1 class="logoHeading">NoteIt</h1>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>
+                            For all your note-taking needs
+                        </p>
+                    </td>
+                </tr>
+        </table> 
+        <hr style="height: 1px;
+                   background-color: black;
+                   margin-top: 0%;">
+        <table> <!--Two rows, each with a padded button linking to its page-->
+            <tr>
+                <td colspan="5">
+                    <button style="height:150px;width=1000px"
+                            type="button"
+                            onclick="location.href='addNote.html'">
+                        Create a Note
+                    </button>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="5">
+                    <button style="height:150px;width=450px"
+                            type="button"
+                            onclick="location.href='notes.html'">
+                        Browse Notes
+                    </button>
+                </td>
+            </tr>
+        </table>
+    </body>
+</html>
