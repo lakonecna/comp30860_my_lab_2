@@ -20,10 +20,13 @@ div.header-pulled-nw {  margin-left: -1%;
                         margin-top: -0.5%; }
 
 div.row.first { height: 60px;}
+div.row.third { height: 180px;}
 
-p.h-new-note { font-family: sans-serif;
+p.heading-new-note { font-family: sans-serif;
                 font-weight: 200;
                 font-size: 110%}
 
-.form-control { width: 100%;
-                }
+.form-control { width: 100%; }
+
+button.btn-with-gradient { background-image: linear-gradient(darkslategrey,black);
+                            border-radius: 10px; }
