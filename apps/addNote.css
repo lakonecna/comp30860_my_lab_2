@@ -29,4 +29,5 @@ p.heading-new-note { font-family: sans-serif;
 .form-control { width: 100%; }
 
 button.btn-with-gradient { background-image: linear-gradient(darkslategrey,black);
-                            border-radius: 10px; }
+                            border-radius: 10px;
+                           }margin: auto;
