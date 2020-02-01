@@ -1,8 +1,8 @@
-h1.logo-heading {   margin-bottom: -5%;
+h2.logo-heading {   margin-bottom: -5%;
                 margin-top: 2%;
                 margin-left: -5%;
                 font-family: sans-serif;
-                font-weight: 100;
+                font-weight: 85;
                 font-style: italic;}
 
 p.tilted-small-text {   margin-top: -4%;
@@ -24,11 +24,13 @@ div.row.third { height: 180px;}
 
 p.heading-new-note { font-family: sans-serif;
                 font-weight: 200;
-                font-size: 110%;
+                font-size: 130%;
                 margin-left: -3%;}
 
 .form-control { width: 100%; }
 
 button.btn-with-gradient { background-image: linear-gradient(darkslategrey,black);
                             border-radius: 5px;
-                           }margin: auto;
+                           }
+
+.fully-right { margin-right: 100%; }
