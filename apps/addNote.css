@@ -19,7 +19,7 @@ hr.header-divider { height: 1px;
 div.header-pulled-nw {  margin-left: -1%;
                         margin-top: -0.5%; }
 
-div.row.first { height: 60px;}
+div.row.first { height: 50px;}
 div.row.third { height: 180px;}
 
 p.heading-new-note { font-family: sans-serif;
