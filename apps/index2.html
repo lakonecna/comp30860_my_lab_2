@@ -7,27 +7,50 @@
         <!--Bootstrap files-->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-        <link rel="stylesheet" href="addNote.css">
-    </head>
+        </head>
     <body>
-    <nav class="navbar navbar-expand-md">
-        <div    class="align-self-start header-pulled-nw"><!--Logo-->
-            <a href="index.html">
-                <img    src="images/logo.jpg"
-                        height="70">
-            </a>
+        <div style="margin-top: 0%;
+                        margin-bottom: 0%"
+             class="content-fluid">
+            <table>
+                <col width="100">
+                <!--Two rows, first col spans the two with img, second col divided-->
+                <tr>
+                    <td rowspan="2">
+                        <img    class="image-responsive"
+                                class="image-circle"
+                                style="margin-right: -50%"
+                                width="70"
+                                src="images/logo.jpg">
+                    </td>
+                    <td>
+                        <h1 style="margin-bottom: -5%;
+                                           margin-top: 2%;
+                                           margin-left: -5%;
+                                           font-family: sans-serif;
+                                           font-weight: 100;
+                                           font-style: italic;">NoteIt</h1>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p style="margin-top: -4%;
+                                          margin-left: -5%;
+                                          font-family: sans-serif;
+                                          font-weight: 400;
+                                          font-style: italic;
+                                          font-size: 80%;">
+                            For all your note-taking needs
+                        </p>
+                    </td>
+                </tr>
+            </table>
         </div>
-        <div class="ml-3">
-            <div    class="align-self-start h-80"><!--Text-->
-                <h1 class="logo-heading">NoteIt</h1>
-            </div>
-            <div    class="align-self-end h-20">
-                <p class="tilted-small-text">For all your note-taking needs</p>
-            </div>
-        </div>
-    </nav>
 
-    <hr class="header-divider"><!--Line divider-->
+        <hr class="content-fluid"
+            style="height: 1px;
+                       background-color: darkslategray;
+                       margin-top: 0%;">
 
         <div class="content-fluid">
             <table> <!--Two rows, each with a padded button linking to its page-->
