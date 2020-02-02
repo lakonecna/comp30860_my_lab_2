@@ -48,41 +48,49 @@
 
     <div class="container">
         <div class="row">
-            <table>
-                <thead>
+            <div class="col-11">
+                <table class="table table-condensed">
+                    <thead>
                     <tr>
-                        <th class="col-xl-2">Created</th>
-                        <th class="col-xl-2">Last Edited</th>
-                        <th class="col-xl-5">Note Title</th>
-                        <th class="col-xl-2">Versions</th>
-                        <th class="col-xl-1">Btn</th>
+                        <th style="width: 10%;">Created</th>
+                        <th style="width: 10%;">Last Edited</th>
+                        <th style="width: 60%;">Note Title</th>
+                        <th style="width: 10%;" class="centered">Versions</th>
                     </tr>
-                </thead>
-                <tbody>
+                    </thead>
+                    <tbody>
                     <tr>
                         <td>25-Dec 2019</td>
                         <td>25-Dec 2019</td>
                         <td>What I got for Christmas</td>
-                        <td>1</td>
-                        <td>
-                            <form>
-                                <button type="button" class="btn btn-dark btn-with-gradient">View</button>
-                            </form>
-                        </td>
+                        <td class="centered">1</td>
                     </tr>
                     <tr>
                         <td>01-Nov 2018</td>
                         <td>19-Dec 2018</td>
                         <td>2018 Christmas Shopping List</td>
-                        <td>1</td>
-                        <td>
-                            <form>
-                                <button type="button" class="btn btn-dark btn-with-gradient">View</button>
-                            </form>
-                        </td>
+                        <td class="centered">1</td>
                     </tr>
-                </tbody>
-            </table>
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="col d-flex flex-column">
+                <div class="sub-row">
+                    <br>
+                    <br>
+                </div>
+                <div class="sub-row">
+                    <form>
+                        <button type="button" class="btn btn-dark btn-with-gradient">View</button>
+                    </form>
+                </div>
+                <div class="sub-row">
+                    <form>
+                        <button type="button" class="btn btn-dark btn-with-gradient">View</button>
+                    </form>
+                </div>
+            </div>
         </div>
     </div>
     </body>
