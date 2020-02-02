@@ -12,7 +12,7 @@ p.tilted-small-text {   margin-top: -4%;
                 font-style: italic;
                 font-size: 80%; }
 
-hr.header-divider { height: 1px;
+hr.header-divider { height: 2px;
                     background-color: darkslategray;
                     margin-top: -1%; }
 
@@ -43,3 +43,9 @@ button.btn-with-gradient { background-image: linear-gradient(darkslategrey,black
             margin-bottom: 2%; }
 
 .centered { text-align: center; }
+
+.thead-dark-bottom { border-bottom: solid darkslategray; }
+
+table td {
+            font-style: italic;
+        }
